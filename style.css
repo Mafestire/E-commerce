@@ -1,0 +1,238 @@
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+i{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.footer a{
+    color: antiquewhite;
+}
+
+.footer p{
+    margin-top: 15px;
+}
+.land img{
+    width: 100%;
+    height: 85vh;
+}
+
+.container-fluid img {
+    width: 10%;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.communicate{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 600px;
+    height: 390px;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 80px;
+    box-shadow: 20px 20px 70px 10px rgba(0,0,0,0.25);
+}
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+footer th {
+    font-size: 18px;
+}
+
+footer td {
+    font-size: 15px;
+}
+
+th, td {
+    padding-left: 160px;
+}
+
+p {
+    text-align: center;
+}
+
+.about {
+    border-radius: 20px;
+    height: 290px;
+    width: 500px;
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 70px 10px rgba(0,0,0,0.25);
+    padding-top: 25px;
+    margin-left: 70px;
+    margin-top: 280px;
+    margin-left: 450px;
+}
+
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    .navbar {
+        width: 100%;
+        position: fixed;
+    }
+    .land img {
+        width: 200%;
+    }
+    .about {
+        width: 350px;
+        height: 400px;
+        margin-right: 90px;
+    }
+    .fem{
+        display: flex;
+        flex-direction: row;
+    }
+    .communicate{
+        width: 350px;
+        margin-right: 30px;
+    }
+    .footer{
+        width: 200%;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+    .navbar {
+        width: 100%;
+        position: fixed;
+    }
+    .land img {
+        width: 350%;
+        height: 150%;
+    }
+    .about {
+        width: 350px;
+        height: 400px;
+        margin-right: 90px;
+    }
+    .card{
+        width: 550px;
+        
+    }
+    .communicate{
+        width: 650px;
+        height: 500px;
+        padding-top: 50px;
+        margin-right: 30px;
+        justify-content: center;
+    }
+    .footer{
+        width: 350%;
+        text-align: center;
+    }
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .navbar {
+        width: 100%;
+        position: fixed;
+    }
+    .land img {
+        width: 350%;
+        height: 150%;
+    }
+    .about {
+        width: 350px;
+        height: 400px;
+        margin-right: 90px;
+    }
+    .card{
+        width: 550px;
+        
+    }
+    .communicate{
+        width: 650px;
+        height: 500px;
+        padding-top: 50px;
+        margin-right: 30px;
+        justify-content: center;
+    }
+    .footer{
+        width: 350%;
+        text-align: center;
+    }
+ }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .navbar {
+        width: 100%;
+        position: fixed;
+    }
+    .land img {
+        width: 350%;
+        height: 150%;
+    }
+    .about {
+        width: 350px;
+        height: 400px;
+        margin-right: 90px;
+    }
+    .card{
+        width: 550px;
+        
+    }
+    .communicate{
+        width: 650px;
+        height: 500px;
+        padding-top: 50px;
+        margin-right: 30px;
+        justify-content: center;
+    }
+    .footer{
+        width: 350%;
+        text-align: center;
+    }
+ }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    .navbar {
+        width: 100%;
+        position: fixed;
+    }
+    .land img {
+        width: 350%;
+        height: 150%;
+    }
+    .about {
+        width: 350px;
+        height: 400px;
+        margin-right: 90px;
+    }
+    .card{
+        width: 550px;
+        
+    }
+    .communicate{
+        width: 650px;
+        height: 500px;
+        padding-top: 50px;
+        margin-right: 30px;
+        justify-content: center;
+    }
+    .footer{
+        width: 350%;
+        text-align: center;
+    }
+ }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seaba'sWear</title>
-    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/eaf8e1e4d2.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
                     <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-5" href="#">About us</a>
+                    <a class="nav-link fs-5" href="./HTML/about.html">About us</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,6 +43,7 @@
                   </li>
                 </ul>
                 <form class="d-flex">
+                    <i class="fa-solid fa-cart-shopping"></i>
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
@@ -661,6 +662,8 @@
         </div>
     </section>
 
+    
+
     <section class="communicate" id="contacts">
         <h3>Contact Us </h3>
         <div class="form m-4">
@@ -674,51 +677,67 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type in message"></textarea>
                 </div>
                 <button type="button" class="btn btn-success p-2 fs-5">Submit</button>
+            </span> 
+        </div> 
     </section>
-    <section class="about">
-        <h2>About Us</h2>
-        <p>SHEIN is a global fashion and lifestyle e-retailer committed to making the beauty of fashion accessible to all. We use on-demand manufacturing technology to connect suppliers to our agile supply chain, reducing inventory waste and enabling us to deliver a variety of affordable products to customers around the world. From our global offices, we reach customers in more than 150 countries. To learn more about SHEIN, visit za.shein.com .</p>
-    </section>
-
-    <footer>
-        <table >
-                <tr>
-                    <th>COMPANY INFO</th>
-                    <th>HELP & SUPPORT</th>
-                    <th>CUSTOMER CARE</th>
-                </tr>
-                <tr>
-                    <td>About Seaba's Wear</td>
-                    <td>Shipping Info</td>
-                    <td>Contact Us</td>
-                </tr>
-                <tr>
-                    <td>Fashion Blogger</td>
-                    <td>Returns</td>
-                    <td>Payment Methods</td>
-                </tr>
-                <tr>
-                    <td>Social Responsibility</td>
-                    <td>How to Order</td>
-                    <td>Bonus Point</td>
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td>How to Track</td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td>Size Guide</td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td> </td>
-                    <td>Seaba VIP</td>
-                    <td> </td>
-                </tr>
+    
+    <footer class="footer">
+        <table>
+            <tr>
+                <th>COMPANY INFO</th>
+                <th>HELP & SUPPORT</th>
+                <th>COSTOMER CARE</th>
+            </tr>
+            <tr>
+                <td><a href="#about">About us</a></td>
+                <td><a href="#">Shipping Info</a></td>
+                <td><a href="#contacts">Contact Us</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Fashion Blogger</a></td>
+                <td><a href="#">Returns</a></td>
+                <td><a href="#">Payment Method</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Social Responsibility</a></td>
+                <td><a href="#">How to order</a></td>
+                <td><a href="#">Bonus Point</a></td>
+            </tr>
+            <tr>
+                <td><a href="#"> </a></td>
+                <td><a href="#">How to Order</a></td>
+                <td><a href="#"></a></td>
+            </tr>
+            <tr>
+                <td><a href="#"> </a></td>
+                <td><a href="#">How to Track</a></td>
+                <td><a href="#"> </a></td>
+            </tr>
+            <tr>
+                <td><a href="#"> </a></td>
+                <td><a href="#">Size Guide</a></td>
+                <td><a href="#"> </a></td>
+            </tr>
+            <tr>
+                <th>FIND US ON</th>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fa-brands fa-instagram"></i></a></td>
+                <td><a href="#"><i class="fa-brands fa-twitter"></i></a></td>
+                <td><a href="#"><i class="fa-brands fa-pinterest"></i></a></td>
+                <td><a href="#"><i class="fa-brands fa-facebook"></i></a></td>
+                <td><a href="#"><i class="fa-brands fa-youtube"></i></a></td>
+            </tr>
+            <tr>
+                <th>WE TAKE</th>
+            </tr>
+            <tr>
+                <td><i class="fa-brands fa-cc-visa"></i></td>
+                <td><i class="fa-brands fa-cc-paypal"></i></td>
+                <td><i class="fa-brands fa-cc-mastercard"></i></td>
+            </tr>
         </table>
-        <p>&copy; 2022 Seaba Wears All Rights Reserved</p>
+        <p>&copy;2022 Seaba's Wear All Rights Reserved</p>
     </footer>
     </body>
 </html>
